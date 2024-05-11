@@ -6,7 +6,8 @@ from langchain_community.vectorstores import FAISS
 from langchain.chains.question_answering import load_qa_chain
 from langchain_community.chat_models import ChatOpenAI
 
-OPENAI_API_KEY = "Enter your API Key"
+
+OPENAI_API_KEY = "Enter you API KEY"
 
 # Created a header
 streamlit.header("OpenAI powered Chat Bot")
